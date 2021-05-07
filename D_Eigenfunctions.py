@@ -4,9 +4,9 @@ from matplotlib.tri import Triangulation
 import distmesh as dm
 from functions import *
 
-# ---------------------------------------------------------------------------------------
-# Demo script that computes the first 24 eigenfunctions on a square with a circular hole.
-# ---------------------------------------------------------------------------------------
+# ----------------------------------------------------------------
+# Demo script that computes the first 24 eigenfunctions on a disk.
+# ----------------------------------------------------------------
 
 # fd = lambda p: dm.ddiff(dm.drectangle(p,-1,1,-1,1), dm.dcircle(p,0,0,0.5)) # square minus disk
 fd = lambda p: np.sqrt((p**2).sum(1))-1.0 # unit disk
