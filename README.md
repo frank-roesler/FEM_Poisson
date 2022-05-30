@@ -1,6 +1,6 @@
 # FEM Poisson
 
-This Python package provides a simple, completely transparent implementation of the P1 finite element method to solve the Poisson equation on a 2d domain of arbitrary shape. The code is a translation of the Matlab code provided in [Bartels, Sören. Numerical approximation of partial differential equations. Vol. 64. Springer, 2016](https://aam.uni-freiburg.de/agba/prof/books.html). The meshing in the demo scripts depends on the [PyDistmesh](https://pypi.org/project/PyDistMesh/) package. Other dependencies:
+This collection of Python codes provides a simple, completely transparent implementation of the P1 finite element method to solve the Poisson equation on a 2d domain of arbitrary shape. The code is a translation of the Matlab code provided in [Bartels, Sören. Numerical approximation of partial differential equations. Vol. 64. Springer, 2016](https://aam.uni-freiburg.de/agba/prof/books.html). The meshing in the demo scripts depends on the [PyDistmesh](https://pypi.org/project/PyDistMesh/) package. Other dependencies:
 * [matplotlib](https://matplotlib.org/)
 * [numpy](https://numpy.org/)
 * [scipy](https://www.scipy.org/)
